@@ -52,6 +52,21 @@ if (int.TryParse(input, out int index)) //Försöker konvertera input till ett h
     {
         Console.WriteLine("Ogiltigt nummer. Ingen vara togs bort."); //Meddelande om ogiltigt nummer.
     }
-
+}
+else //Om input inte är ett heltal, behandla det som ett varunamn.
+{
+    Console.WriteLine("Ange priset för varan:"); //Frågar användaren om priset för varan.
+    string priceInput = Console.ReadLine() ?? "".Trim(); //Läser in priset
+    if (int.TryParse(priceInput, out int price)) //Försöker konvertera priset till ett heltal.
+    {
+        names.Add(input); //Lägger till varan i namnlistan.
+        prices.Add(price); //Lägger till priset i prislistan.
+        Console.WriteLine($"Varan \"{input}\" har lagts till för {price} kr."); //Meddelande om att varan har lagts till.
+    }
+    else //Om priset inte är ett giltigt heltal.
+    {
+        Console.WriteLine("Ogiltigt pris. Varan lades inte till."); //Meddelande om ogiltigt pris.
+    }   
+}
       
  
