@@ -52,7 +52,6 @@ if (int.TryParse(input, out int index)) //Försöker konvertera input till ett h
     {
         Console.WriteLine("Ogiltigt nummer. Ingen vara togs bort."); //Meddelande om ogiltigt nummer.
     }
-}
-else //Om input inte är ett heltal, behandla det som ett varunamn.
+
       
  
