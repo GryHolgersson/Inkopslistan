@@ -36,3 +36,23 @@ List<int> prices = new List<int>(); // En lista som håller reda på priserna p�
         Console.WriteLine($"Totalt: {total} kr"); // Skriver ut totalsumman av varorna
     }
 }
+Console.WriteLine("Skriv ett varunamn för att lägga till en vara, eller ett nummer för att ta bort en vara:"); 
+//Frågar användaren om input.
+string input = Console.ReadLine() ?? "".Trim(); 
+//Läser in användarens input och tar bort eventuella mellanslag.
+if (int.TryParse(input, out int index)) //Försöker konvertera input till ett heltal,
+{
+    if (index >= 1 && index <= names.Count) //Om input är ett giltigt index i listan
+    {
+        names.RemoveAt(index - 1); //Tar bort varan från namnlistan.
+        prices.RemoveAt(index - 1); //Tar bort priset från prislistan.
+        Console.WriteLine($"Varan på position {index} har tagits bort."); //Meddelande om att varan har tagits bort.
+    }
+    else //Om input inte är ett giltigt index i listan
+    {
+        Console.WriteLine("Ogiltigt nummer. Ingen vara togs bort."); //Meddelande om ogiltigt nummer.
+    }
+}
+else //Om input inte är ett heltal, behandla det som ett varunamn.
+      
+ 
