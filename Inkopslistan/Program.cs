@@ -1,4 +1,4 @@
-/*Skriv ett konsolprogram som håller reda på en inköpslista med namn och pris för varje vara.
+﻿/*Skriv ett konsolprogram som håller reda på en inköpslista med namn och pris för varje vara.
 Eftersom vi inte använder objekt i den här delen håller du ihop datan med två parallella listor — en
 List<string> för namnen och en List<int> för priserna — där samma index hör ihop (names[i] kostar
 prices[i]).
@@ -20,6 +20,7 @@ Extra (frivilligt, påverkar inte betyget):
 List<string> names = new List<string>(); //En lista som håller reda på namnen på varorna.
 List<int> prices = new List<int>(); // En lista som håller reda på priserna på varorna.
 
+while(true) //En oändlig loop som körs tills programmet avslutas.
 {
     if (names.Count == 0) //Om listan är tom, skriv ut ett meddelande om det.
     {
@@ -35,7 +36,8 @@ List<int> prices = new List<int>(); // En lista som håller reda på priserna p�
         }
         Console.WriteLine($"Totalt: {total} kr"); // Skriver ut totalsumman av varorna
     }
-}
+
+
 Console.WriteLine("Skriv ett varunamn för att lägga till en vara, eller ett nummer för att ta bort en vara:"); 
 //Frågar användaren om input.
 string input = Console.ReadLine() ?? "".Trim(); 
@@ -69,4 +71,4 @@ else //Om input inte är ett heltal, behandla det som ett varunamn.
     }   
 }
       
- 
+}

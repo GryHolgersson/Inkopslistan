@@ -1,0 +1,15 @@
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\bin\Debug\net10.0\Inkopslistan.exe
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\bin\Debug\net10.0\Inkopslistan.deps.json
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\bin\Debug\net10.0\Inkopslistan.runtimeconfig.json
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\bin\Debug\net10.0\Inkopslistan.dll
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\bin\Debug\net10.0\Inkopslistan.pdb
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\obj\Debug\net10.0\Inkopslistan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\obj\Debug\net10.0\Inkopslistan.AssemblyInfoInputs.cache
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\obj\Debug\net10.0\Inkopslistan.AssemblyInfo.cs
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\obj\Debug\net10.0\Inkopslistan.csproj.CoreCompileInputs.cache
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\obj\Debug\net10.0\Inkopslistan.sourcelink.json
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\obj\Debug\net10.0\Inkopslistan.dll
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\obj\Debug\net10.0\refint\Inkopslistan.dll
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\obj\Debug\net10.0\Inkopslistan.pdb
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\obj\Debug\net10.0\Inkopslistan.genruntimeconfig.cache
+C:\Users\gryho\OneDrive\Desktop\Skola\Kurs 2\Uppgifter\Inköpslistan\Inkopslistan\obj\Debug\net10.0\ref\Inkopslistan.dll
